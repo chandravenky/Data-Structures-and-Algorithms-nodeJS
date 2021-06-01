@@ -23,6 +23,10 @@ function findNemo1(array) {
 // const boxes = [1,2,3,4,5];
 // example2.logAllPairsOfArray(boxes);
 
+// array1 = [1,2,3,4]
+// array2 = [7,8,9,1]
+// example3.commonItem(array1, array2);
+
 array1 = [1,2,3,4]
-array2 = [7,8,9,1]
-example3.commonItem(array1, array2);
+array2 = [7,8,9,0]
+example3.commonItem2(array1, array2);
