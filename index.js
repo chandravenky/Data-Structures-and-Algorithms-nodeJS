@@ -1,4 +1,5 @@
 var example2 = require("./example2.js");
+var example3 = require("./example3.js");
 const {performance} = require('perf_hooks');
 
 const nemo = ['nemo'];
@@ -19,5 +20,9 @@ function findNemo1(array) {
 }
 
 // findNemo1(large_array);
-const boxes = [1,2,3,4,5];
-example2.logAllPairsOfArray(boxes);
+// const boxes = [1,2,3,4,5];
+// example2.logAllPairsOfArray(boxes);
+
+array1 = [1,2,3,4]
+array2 = [7,8,9,1]
+example3.commonItem(array1, array2);
